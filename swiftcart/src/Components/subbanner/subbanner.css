@@ -1,0 +1,38 @@
+.bannersub{
+    padding: 5% 20%;
+}
+.subs{
+    background-color: #87ceeb;
+    height: 250px;
+    padding: 20px;
+    line-height: 0.5rem;
+    align-content: center;
+    text-align: center;
+}
+.subbtn{
+    width: 450px;
+    display: flex;
+    background-color: var(--bg-color);
+    justify-self: center;
+    margin-top: 25px;
+}
+.subtxt{
+    padding: 10px;
+    width:80%;
+    color: black;
+}
+.termrad{
+    display: flex;
+    align-items: center;
+    justify-self: center;
+    margin-top: 10px;    
+}
+.termapt{
+    text-decoration: none;
+    color: var(--bg-color);
+    font-size: 12px;
+}
+
+.termapt:hover {
+    color: var(--warning-color);
+}
