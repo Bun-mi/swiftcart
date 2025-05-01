@@ -1,4 +1,4 @@
-import React from 'react'
+import React, {useEffect, useState} from 'react'
 import Cards from '../cards/cards';
 import products from '../../Data/products';
 import "./stkcard.css"
@@ -6,6 +6,7 @@ import { Link } from 'react-router-dom';
 
 
 const ProductList = ({title}) => {
+  
     return (
       <section className="product-list-wrapper">
         <div className="sect-title-more">
