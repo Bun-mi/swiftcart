@@ -1,0 +1,15 @@
+.sec{
+    background-color: var(--pry-color);
+    padding: 0.5%;
+}
+.cse{
+    width: 100%;
+    text-align: center;
+    
+}
+.categors{
+    display: inline-block;
+    width: 120px;
+    color: var(--bg-color);
+    text-decoration: none;
+}

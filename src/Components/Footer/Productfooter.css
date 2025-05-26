@@ -1,0 +1,62 @@
+footer{
+    padding: 0 4%;
+    background-color: var(--pry-color);
+    display: flex;
+    flex-direction: column;
+}
+
+.logoi{
+    width: 100px;
+}
+
+.logocsei{
+    display: flex;
+    flex-direction: column;
+    color: var(--bg-color);
+    text-decoration: none;
+    padding: 20px;
+    align-content: center;
+}
+
+.ftsect{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    padding: 10px;
+    border-top: 1px solid #e0e0e0;
+}
+.ftlist ul {
+list-style: none;
+padding: 0;
+}
+
+.ftlist li {
+margin-bottom: 10px;
+font-size: 14px;
+cursor: pointer;
+}
+
+.ftlist li a {
+color: var(--bg-color);
+text-decoration: none;
+transition: color 0.3s ease;
+}
+
+.ftlist li a:hover {
+color: var(--highlight-hover);
+}
+
+.list-title {
+font-weight: bold;
+color: #000;
+font-size: 16px;
+margin-bottom: 15px;
+text-transform: uppercase;
+cursor: default;
+}
+
+.cpright{
+    border-top: 1px solid #c7c7c7;
+    padding: 10px;
+    color: #c7c7c7;
+    text-align: center;
+}
